@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #838E83;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}   
+
+#title {
+    color: #B2BCAA;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    font-size: 2.5vw;
+    text-shadow: 2px 2px 5px #B2BCAA;
+    width: 60vw;
+    text-align: center;
+    background-color: #434943;
+    border-radius: 10px;
+    z-index: 20;
+}
+
+#sperm {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    position: absolute;
+}
+
+#sperm div {
+    width: fit-content;
+    padding: 1vw 3vw;
+    background-color: #434943;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#sperm div #text {
+    width: 46vw;
+    height: 4vh;    
+    font-size: 19px;
+    padding: 0 1vw;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    background-color: #B2BCAA;
+    outline: 1px solid #838E83;
+    color: black;
+}
+
+#sperm div button {
+    width: 3vw;
+    height: 4vh;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    background-color: #B2BCAA;
+    outline: 1px solid #838E83;
+    color: #838E83;
+    font-weight: 1000;
+}
+
+#sperm div button:hover {
+    background-color: #838E83;
+    color: black;
+    cursor: pointer;
+}
+
+#sperm input:focus + div {
+    outline: 2px solid #838E83;
+}
+
+#sperm div input:focus + #sendbutton {
+    outline: 2px solid #838E83;
+}
+
+#uss {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#uss h2 {
+    width: 15vw;
+    height: fit-content;
+    text-align: center;
+    font-size: 19px;
+    padding: 0 1vw;
+    border: none;
+    border-radius: 10px;
+    background-color: #B2BCAA;
+    color: black;
+}
+
+#user {
+    width: 15vw;
+    height: fit-content;    
+    font-size: 19px;
+    padding: 0 1vw;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    outline: solid 1px #B2BCAA;
+}
+
+
+#chat {
+    width: 50vw;
+    padding: 2.5vh 2.5vw;
+    height: 82vh;
+    background-color: #B2BCAA;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-content: end;
+}
+
+#chat p {
+    padding: 0 2%;
+    height: fit-content;
+    width: 55%;
+    background-color: #C9CEBD;
+    border-radius: 10px;
+    color: black;
+    font-family: sans-serif;
+    margin: 0.2vh 0.2vw;
+    font-size: 15px;
+    word-break: break-all;
+}
+
+#chat h2 {
+    padding: 0 2%;
+    height: fit-content;
+    width: 15%;
+    background-color: #C9CEBD;
+    border-radius: 10px;
+    color: black;
+    font-family: sans-serif;
+    margin: 0.2vh 0.2vw;
+    font-size: 15px;
+    text-align: center;
+    word-break: break-all;
+}
+
+#chat h3 {
+    padding: 0 2%;
+    height: fit-content;
+    width: 10%;
+    background-color: #C9CEBD;
+    border-radius: 10px;
+    color: black;
+    font-family: sans-serif;
+    margin: 0.2vh 0.2vw;
+    font-size: 15px;
+    text-align: center; 
+    word-break: break-all;
+}
+
+#foto {
+    position: absolute;
+    filter: blur(2px);
+    width: 20vw;
+    right: 1vw;
+    bottom: 1vw;
+    z-index: -1;
+}
+
+#shart {
+    position: absolute;
+    width: 20vw;
+    left: 1vw;
+    bottom: 1vw;
+    z-index: -1;
+}
