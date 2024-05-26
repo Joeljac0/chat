@@ -1,7 +1,7 @@
 const messageField = document.getElementById("chat");
 const inputField = document.getElementById("text");
 const loginField = document.getElementById("user");
-const server = "http://10.0.2.93:3000"
+const server = "http://10.0.83.34:3000"
 
 //"http://10.155.16.246:3000"
 
